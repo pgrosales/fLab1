@@ -1,0 +1,184 @@
+
+div {
+  border: 0px solid gray;
+  padding: 300px;
+
+}
+
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 200%;
+  border: 4px solid #FFF;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}	
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  font-size: 95px;
+   text-shadow: 4px 9px 8px #000000;
+}
+h2{
+	 text-align: center;
+	 float: center;
+	 position: fixed;
+ 
+  
+  font-size: 95px;
+}
+
+p {
+  font-family: arial;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-size:35px;
+}
+
+
+
+
+@keyframes blurred-bg {
+  0% {
+    -webkit-filter: blur(0px);
+  }
+  
+  100% {
+    -webkit-filter: blur(4px);
+  }
+}
+
+html,body { 
+  margin: 0;
+}
+
+html {
+  background: #FFF;
+  font-family: Helvetica,Arial,sans-serif;
+}
+header {
+  text-align: center;
+  width: 100%;
+  height: 1300px;
+   overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.background-img {
+  background-color: 
+  background-size: 10%;
+  background-position: bottom center;
+  background-repeat: 0px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: calc(100% + 20px);
+  height: calc(65% + 20px);
+  z-index: 1;
+
+/*   -webkit-filter: blur(4px); */
+    
+    box-sizing: border-box;
+}
+
+
+
+.circle {
+  border-radius: 50%;
+  border: 4px solid #FFF;
+  height: "10";
+  width: "10";
+}
+button {
+	:center;
+  border: 10;
+  padding: 8px 18px;
+  background: rgba(0,150,200,.6);
+  color: red;
+  font-size: 18px;
+  position: absolute !important;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.row {
+	max-width: 100%;
+	height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  min-height: 50%;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	max-width: 100%;
+	height: auto;
+  flex: 25%;
+  min-height: 50%;
+ 
+  padding: 0 4px;
+}
+
+.column img {
+max-width: 100%;
+height: auto;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  font-size: 50px;
+}
+.circle {
+  border-radius: 100%;
+  border: 4px solid #FFF;
+}
